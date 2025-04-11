@@ -1,0 +1,71 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #00ea2b;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+li button.edit-btn {
+    background-color: #00eeff;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+.completed button {
+    background-color: #6c757d;
+}
+.completed button:hover{
+    background-color: #c82333;
+}
